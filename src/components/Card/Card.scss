@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+$font-fam-1: 'Sevillana', cursive;;
+.card{
+  
+    background-image: url('../asset/2.png');
+    background-size: cover;
+    
+font-weight: 700;
+    height: 36rem;
+    width:34rem;
+    margin: 2rem auto;
+    color: #f7f7f7;
+    align-items: center;
+    border-radius: 30px;
+    font-family:$font-fam-1;
+    &__buttons{
+        display: flex;
+        justify-content: space-evenly;
+       
+       
+
+    }
+    &__button{
+    
+        font-size: 2rem;
+    cursor: pointer;
+     background-color: transparent;
+     border: none;
+     &--share{
+        color: rgba(0, 255, 72, 1);
+     }
+     &--wish{
+        color: rgba(122, 244, 255, 1);
+     }
+     &--heart{
+     color: #FF2448FF;
+     
+    }
+
+    }
+    &__heading{
+      
+        text-align: center;
+        padding: 2rem 0;
+        font-family:$font-fam-1;
+        font-weight: 400;
+        font-size: 1.6rem;
+    }
+    &__text{
+        
+     
+        margin: 1.2rem 2rem;
+        font-size: 1.6rem;
+        transform: skewX(-7deg);
+    }
+    &__ending{
+        text-align: end;
+        margin: 2rem;
+    }
+}

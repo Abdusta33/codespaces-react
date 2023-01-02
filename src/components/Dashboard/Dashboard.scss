@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;800;900&display=swap');
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body{
+    background-color: #eee;
+    font-family: 'Inconsolata', monospace;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+  
+  &__logo{
+
+  }
+  &__figure{
+display: flex;
+align-items: center;
+
+  }
+  &__img{
+    height: 4rem;
+    width: 4rem;
+  }
+  &__figcaption{
+    margin: 0 1rem;
+    font-weight:700;
+    font-size: 1.4rem;
+  }
+  &__list{
+    display: flex;
+    gap: 3rem;
+    list-style-type:none;
+    margin-right: 2rem;
+    align-items: center;
+
+  }
+  &__item{
+    
+  }
+  &__link{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    
+  }
+}
+.btn{
+    background-color: rgba(164, 255, 148, 1);
+    color:black ;
+    border: none;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+//header 
+
+.header{
+  display: flex;
+  width: 100%;
+ 
+  height: 85vh;
+  gap: 4rem;
+  @media(max-width:700px){
+    flex-direction:column;
+  }
+&__text{
+width: 40rem;
+  font-size: 1.7rem;
+}
+  &__left{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  &__pics{
+position: relative;
+
+  }
+  &__img{
+    height: 20rem;
+    width: 20rem;
+    
+    position: absolute;
+    top: 8rem;
+    &--1{
+      top: 5rem;
+      left: -10rem;
+     transform: skew(-15deg);
+    }
+    &--2{
+      top: 15rem;
+      left: 0;
+     transform: skew(-15deg);
+    }
+    &--3{
+      top: 27rem;
+      left: -12rem;
+     transform: skew(-10deg);
+    }
+    &--4{
+     
+      top: 7rem;
+      left: -22rem;
+     transform: skew(-15deg);
+    }
+  
+  }
+
+  &__right{
+ align-self: center;
+ 
+  }
+}
