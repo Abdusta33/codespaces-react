@@ -12,26 +12,26 @@ import mom from '../asset/mom.jpg';
 
 
 const Dashboard = () => {
-  const type = useRef(null);
-  const typed = useRef(null);
-  useEffect(()=>{
-    var options = {
-      strings: ['“Someone I loved once gave me a box full of darkness. It took me years to understand that this too, was a gift.” -Mary Oliver ', '“May it be a light to you in dark places, when all other lights go out.” ― J.R.R. Tolkien, The Fellowship of the Ring ',' “Everyone has a gift for something, even if it is the gift of being a good friend.” ― Marian Anderson ',' “A friend is a gift you give yourself.” ― Robert Louis Stevenson '],
-      typeSpeed: 150,
-      backSpeed: 150,
-      loop: true,
-      loopCount: Infinity,
-      showCursor: false,
-    };
+  // const type = useRef(null);
+  // const typed = useRef(null);
+  // useEffect(()=>{
+  //   var options = {
+  //     strings: ['“Someone I loved once gave me a box full of darkness. It took me years to understand that this too, was a gift.” -Mary Oliver ', '“May it be a light to you in dark places, when all other lights go out.” ― J.R.R. Tolkien, The Fellowship of the Ring ',' “Everyone has a gift for something, even if it is the gift of being a good friend.” ― Marian Anderson ',' “A friend is a gift you give yourself.” ― Robert Louis Stevenson '],
+  //     typeSpeed: 150,
+  //     backSpeed: 150,
+  //     loop: true,
+  //     loopCount: Infinity,
+  //     showCursor: false,
+  //   };
      
-  typed.current = new Typed(type.current, options);
-   return () => {
-      // Make sure to destroy Typed instance during cleanup
-      // to prevent memory leaks
-      typed.current.destroy();
-    }
+  // typed.current = new Typed(type.current, options);
+  //  return () => {
+  //     // Make sure to destroy Typed instance during cleanup
+  //     // to prevent memory leaks
+  //     typed.current.destroy();
+  //   }
 
-  },[])
+  // },[])
  
  
   return (
@@ -65,7 +65,7 @@ const Dashboard = () => {
   <div className="header__right">
  
     <h2 className="header__heading">Regalo! for your Beloved ones</h2>
-    <h4 className="header__text" ref={type} ></h4>
+    <h4 className="header__text" ></h4>
     <button className="btn">generate Gift card</button>
   </div>
     </header>

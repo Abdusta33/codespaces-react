@@ -4,7 +4,7 @@ import * as ai from 'react-icons/ai';
 import * as io from 'react-icons/io';
 import * as  bs from 'react-icons/bs';
 import * as bi from 'react-icons/bi';
-const Card = () => {
+const Card = ({sender , reciver, text}) => {
   return (
     <>
     <div className='card'>
