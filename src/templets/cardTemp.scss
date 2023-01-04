@@ -1,0 +1,11 @@
+.card{
+   &__wrapper{
+      position: relative;
+   }
+   &__btn{
+      position: absolute;
+      top: 2rem;
+      left: 22rem;
+      transform: translate(-50%, -50%);
+   }
+}

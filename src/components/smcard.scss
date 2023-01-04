@@ -1,0 +1,46 @@
+
+.smcard{
+  
+
+    width: 270px;
+    height: 270px;
+
+    margin: 2rem;
+    cursor: pointer;
+&__wrapper{
+  position: relative;
+  margin-top:4rem ;
+}
+    
+    &__img{
+height: 300px;
+width: 300px;
+
+
+    }
+    &__text{
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 1rem;
+    }
+    &__btn{
+      position: absolute;
+      top: 14rem;
+      left: 9rem;
+      padding: .75rem 1rem;
+      cursor: pointer;
+      background-color:  #32c872 ;
+      border-radius: 20px;
+      border: none;
+      box-shadow: -71px -70px 158px -7px rgba(0,0,0,0.44);
+-webkit-box-shadow: -71px -70px 158px -7px rgba(0,0,0,0.44);
+-moz-box-shadow: -71px -70px 158px -7px rgba(0,0,0,0.44);
+transition: all .4s;
+color: #fff;
+font-weight:500;
+&:hover{
+ transform: translateY(-3px) scale(1.05);
+}
+     
+    }
+}

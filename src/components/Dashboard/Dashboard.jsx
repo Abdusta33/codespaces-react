@@ -9,6 +9,7 @@ import eid from '../asset/eid.png';
 import hbd from '../asset/hbd.png';
 import lovers from '../asset/lovers.png';
 import mom from '../asset/mom.jpg';
+import Nav from './Nav';
 
 
 const Dashboard = () => {
@@ -36,23 +37,8 @@ const Dashboard = () => {
  
   return (
     <>
-    <nav className='navbar'>
-    <div className="navbar__logo">
-<figure className="navbar__figure">
-  <img src={logo} alt="" className="navbar__img" />
-  <figcaption className='navbar__figcaption'>Regalo!</figcaption>
-</figure>
-    </div>
-    <ul className="navbar__list">
-      <li className="navbar__item"><a href="#" className="navbar__link">about</a></li>
-      <li className="navbar__item"><a href="#" className="navbar__link">cards</a></li>
-      <li className="navbar__item"><a href="#" className="navbar__link">contact us</a></li>
-      <li className="navbar__item"><button href="#" className="navbar__link btn">log in</button></li>
-    </ul>
-    </nav>
    
-
-
+  <Nav nav1={'About'} nav2={'Services'} nav3={'Contact us'}/>
     <header className='header'>
   <div className="header__left">
     <div className="header__pics">
