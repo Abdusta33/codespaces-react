@@ -1,0 +1,98 @@
+
+.body{
+    text-align: center;
+}
+.editor{
+    margin: 5rem auto;
+    width: 55%;
+
+    border: .4px solid black;
+}
+.view__btn{
+   padding: 10px 20px;
+   cursor: pointer;
+   background-color: rgba(34, 214, 52, 1);
+   border: none;
+   border-radius: 15px;
+   color: #fff;
+   font-weight: 500;
+   font-size: 1.3rem;
+   text-transform:capitalize;
+ 
+  
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+  
+  &__logo{
+
+  }
+  &__figure{
+display: flex;
+align-items: center;
+
+  }
+  &__img{
+    height: 4rem;
+    width: 4rem;
+  }
+  &__figcaption{
+    margin: 0 1rem;
+    font-weight:700;
+    font-size: 1.4rem;
+  }
+  &__list{
+    display: flex;
+    gap: 3rem;
+    list-style-type:none;
+    margin-right: 2rem;
+    align-items: center;
+
+  }
+  &__item{
+    
+  }
+  &__link{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    
+  }
+}
+.modal{
+   background-color:rgba(0, 0, 0,.5);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    visibility: hidden;
+    
+    opacity:0;
+z-index:40;
+display: flex;
+justify-content: center;
+align-items: center;
+
+    &__figure{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:#fff;
+        padding:3rem;
+     width: 45%;
+
+     
+ 
+       
+        
+    }
+  
+    &__img{
+        height: 100px;
+        width: 100px;
+    }
+    &__heading{
+ margin: 2rem;
+    }
+}

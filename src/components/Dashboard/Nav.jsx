@@ -1,6 +1,6 @@
 import React from 'react'
 import './Dashboard.scss';
-import logo from '../asset/logo.png';
+import logo from '../../asset/logo.png';
 
 const Nav = ({nav1, nav2, nav3}) => {
   return (
@@ -15,7 +15,7 @@ const Nav = ({nav1, nav2, nav3}) => {
       <li className="navbar__item"><a href="#" className="navbar__link">{nav1}</a></li>
       <li className="navbar__item"><a href="#" className="navbar__link">{nav2}</a></li>
       <li className="navbar__item"><a href="#" className="navbar__link">{nav3}</a></li>
-      <li className="navbar__item" id='login'><button href="#" className="navbar__link btn">log in</button></li>
+
     </ul>
     </nav>
   )

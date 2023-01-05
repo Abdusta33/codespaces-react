@@ -2,6 +2,8 @@
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 body{
@@ -66,9 +68,11 @@ align-items: center;
  
   height: 85vh;
   gap: 4rem;
-  @media(max-width:700px){
+  @media only screen and (max-width: 900px) {
     flex-direction:column;
   }
+
+ 
 &__text{
 width: 40rem;
   font-size: 1.7rem;
@@ -77,15 +81,21 @@ width: 40rem;
     display: flex;
     justify-content: center;
     width: 50%;
+    @media only screen and (max-width: 1024px) {
+   display: block;
+      justify-content: flex-start;
+    }
   }
   &__pics{
 position: relative;
+@media only screen and (max-width: 1224px) {
+display: none;
+}
 
   }
   &__img{
     height: 20rem;
     width: 20rem;
-    
     position: absolute;
     top: 8rem;
     &--1{
@@ -114,6 +124,48 @@ position: relative;
 
   &__right{
  align-self: center;
+ @media only screen and (max-width: 900px) {
+  flex-direction:column;
+align-self: flex-end;
+}
  
+  }
+}
+.about{
+ 
+  margin: 6rem 2rem;
+  &__text{
+font-size: 1.4rem;
+  }
+  &__heading{
+    text-align: center;
+    font-size: 2.4rem;
+  }
+}
+.footer{
+  background-color: black;
+  height: 10rem;
+  &__list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+   padding: 2rem;
+  }
+  &__item{
+color: #fff;
+  }
+
+}
+.dashboard{
+  margin-top: 10rem;
+}
+.text{
+  visibility: hidden;
+  opacity: 0;
+  color: red;
+  @media only screen and (max-width: 1024px) {
+   visibility: visible;
+   opacity: 1;
+   font-size: 1.4rem;
   }
 }

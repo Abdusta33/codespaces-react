@@ -16,7 +16,7 @@ const Smcard = ({card}) => {
       </figure>
       <button className="smcard__btn" onClick={()=>(
         navigate(`/${card.id}`)
-      )} >{card.title}</button>
+      )} >Create Card</button>
       </div>
      </div>
     </div>

@@ -9,9 +9,9 @@ const Card = ({sender , reciver, text}) => {
     <>
     <div className='card'>
         <h2 className="card__heading">
-             {reciver}</h2>
-   <p className="card__text">{text}</p>
-    <h4 className="card__ending">Your Beloved {sender}</h4>
+             Dear ....... </h2>
+   <p className="card__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime dignissimos, ad pariatur alias repudiandae quo, perferendis culpa porro maiores reiciendis unde ipsa laborum. Enim velit quam impedit vero eveniet deserunt consectetur exercitationem totam at repellendus?</p>
+    <h4 className="card__ending">Your Beloved lorem7 ....</h4>
     <div className="card__buttons">
        <button className="card__button card__button--wish"><bs.BsFillBookmarkHeartFill/></button>
         <button className="card__button card__button--heart"><bs.BsFillSuitHeartFill/></button>

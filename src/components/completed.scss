@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+$font-fam-1: 'Sevillana', cursive;;
+.card{
+    &__figure{
+position: relative;
+height: 600px;
+width: 600px;
+margin: 5rem auto;
+overflow-wrap:anywhere;
+    }
+    &__caption{
+        position: absolute;
+        top:2rem;
+        left: 4rem;
+        font-family: $font-fam-1;
+        font-weight: 500;
+        padding: 5rem 3.5rem;
+        
+
+  
+    }
+    &__img{
+       
+        height: 600px;
+        width: 600px;
+        
+            }
+}
+
+.dashboard{
+    
+}
