@@ -4,9 +4,22 @@
 }
 .editor{
     margin: 5rem auto;
-    width: 55%;
-
+    margin-top: 10rem;
+    width: 100%;
+    max-width:600px;
     border: .4px solid black;
+    height: 100%;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.toolbarClassName{
+  margin-top: -125px;
+  // width: 100%;
+
+}
+.editorClassName{
+  padding:40px;
 }
 .view__btn{
    padding: 10px 20px;
@@ -95,4 +108,14 @@ align-items: center;
     &__heading{
  margin: 2rem;
     }
+}
+.relative-container{
+  position: relative;
+}
+.absolute-card {
+  position: absolute;
+  top:0;
+  left:0;
+  width:400px;
+  height: 600px;
 }

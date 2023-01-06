@@ -1,92 +1,75 @@
-import eid from '../asset/eid.png';
-import hbd from '../asset/hbd.png';
-import { v4 as uuidv4 } from 'uuid';
-import lovers from '../asset/lovers.png';
-import mom from '../asset/mom.jpg';
-import val1 from '../asset/val1.jpg';
-import val3 from '../asset/val3.jpg';
-import val2 from '../asset/val2.png';
-import mom1 from '../asset/mom1.jpg';
-import mom3 from '../asset/mom3.jpeg';
-import mom2 from '../asset/mom2.jpg';
-import holly1 from '../asset/holy1.jpg';
-import holly3 from '../asset/holly3.jpg';
-import holly2 from '../asset/holly10.png';
-import dad2 from '../asset/dad2.jpg';
-import dad1 from '../asset/dad3.png';
 
-import Notemp from '../asset/holly6.png';
 export const cards = [
     {
 
         id:"1",
-        img:Notemp,
+        img:"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d43b4d55553319.59898754bd8ef.png",
 
 
     },
     {
-        title:"HollyDays",
+       
         id:"2",
-        path:'/hollyday',
-        img:eid,
+     
+        img:"https://static.vecteezy.com/system/resources/previews/006/985/567/non_2x/banner-with-crescent-moon-hidden-behind-mosque-and-arabic-calligraphy-eid-mubarak-aside-meaning-happy-eid-holiday-3d-illustration-free-vector.jpg",
 
 
     },
     {
-        title:"Special Days",
+ 
         id:"3",
-        path:'/specialday',
-        img:mom,
+      
+        img:"https://blog.tubikstudio.com/wp-content/uploads/2020/12/decorating-christmas-tree-tubik-arts-illustration.jpg",
 
 
     },
     {
-        title:"BirthDay",
+      
         id:"4",
-        path:'/birthday',
-        img:hbd,
+ 
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVYPkQHmS4HGR_I77o3nq5zVdixXoXaZy1rPOdAlcTL22SOxEl9tlS5j9XVRZwii5zAls&usqp=CAU",
 
 
     },
     {
 
         id:"5",
-        img:val1,
+        img:"https://img.freepik.com/free-vector/3d-winter-holidays-background-christmas-tree-candy-cane-vector_53876-151243.jpg?w=2000",
 
 
     },
     {
 
         id:"6",
-        img:val2,
+        img:"https://media.istockphoto.com/id/877111770/vector/new-year-card-with-candy-canes.jpg?s=612x612&w=0&k=20&c=EZTZXggg1QT-W1n4Z6xNRForCTLCacYD9asm5GfDIkU=",
 
 
     },
     {
 
         id:"7",
-        img:val3,
+        img:"https://www.shutterstock.com/image-vector/christmas-gift-card-260nw-67416388.jpg",
 
 
     },
     {
 
         id:"8",
-        img:mom1,
+        img:"https://thumbs.dreamstime.com/z/christmas-gift-card-16724836.jpg",
 
 
     },
     {
 
         id:"9",
-        img:mom2,
+        img:"https://e7.pngegg.com/pngimages/5/552/png-clipart-happy-valentines-day-illustration-valentines-day-happiness-heart-february-14-greeting-card-valentine-s-day-gift-box-pattern-love-miscellaneous.png",
 
 
     },
     {
 
         id:"10",
-        img:mom3,
+        img:"https://littlestepspt.com/wp-content/uploads/2020/02/valentines-day-concept.jpg",
 
 
     },
@@ -94,7 +77,7 @@ export const cards = [
     {
 
         id:"11",
-        img:holly1,
+        img:"https://cdni.iconscout.com/illustration/premium/thumb/happy-valentines-day-4727424-3926280.png",
 
 
     },
@@ -102,7 +85,7 @@ export const cards = [
     {
 
         id:"12",
-        img:holly2,
+        img:"https://media.istockphoto.com/id/1126906650/vector/valentines-day-background-with-hearts-and-stars.jpg?s=612x612&w=0&k=20&c=KEICWnV6xlTuUnmoy2zm94FVkmiiIcf3Rkdz1cTcbWo=",
 
 
     },
@@ -110,7 +93,7 @@ export const cards = [
     {
 
         id:"13",
-        img:holly3,
+        img:"https://img.freepik.com/free-vector/floral-mother-s-day-illustration_23-2148902720.jpg?w=2000",
 
 
     },
@@ -118,7 +101,7 @@ export const cards = [
     {
 
         id:"14",
-        img:dad2,
+        img:"https://static.toiimg.com/photo/msid-91349440/91349440.jpg",
 
 
     },
@@ -126,7 +109,7 @@ export const cards = [
     {
 
         id:"15",
-        img:dad1,
+        img:"https://img.freepik.com/free-vector/organic-flat-mother-s-day-illustration_23-2148907533.jpg?w=2000",
 
 
     },

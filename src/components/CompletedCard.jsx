@@ -1,16 +1,36 @@
-import  './completed.scss'
-const CompletedCard = ({image, text}) => {
-  console.log(image);
-    return (
-    <div>
-        <div className="" />
-       <figure className="card__figure">
-       <img src={image} alt="" className='card__img' />
-       <figcaption className="card__caption" dangerouslySetInnerHTML={{ __html: text }}></figcaption>
-       </figure>
+import "./completed.scss";
 
+const CompletedCard = ({ template }) => {
+  return (
+    <div>
+      <div className="container" />
+      <div
+        className="card__figure"
+        style={{
+          backgroundImage: `url(${template?.card?.img})`,
+          height: "600px",
+          width: "600px",
+          margin: "12rem auto",
+          overflowWrap: "anywhere",
+          padding:"40px",
+          backgroundSize:"cover"
+        }}
+      >
+        <div dangerouslySetInnerHTML={{ __html: template.text }} />
       </div>
-    )
-  }
-  
-  export default CompletedCard;
+      {/* <figure className="card__figure">
+        <img
+          src={template?.card?.img}
+          alt="image not found"
+          className="card__img"
+        />
+        <figcaption
+          className="card__caption"
+          dangerouslySetInnerHTML={{ __html: template.text }}
+        ></figcaption>
+      </figure> */}
+    </div>
+  );
+};
+
+export default CompletedCard;

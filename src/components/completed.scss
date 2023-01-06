@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
-$font-fam-1: 'Sevillana', cursive;;
+$font-fam-1: 'Sevillana', cursive;
+
 .card{
+   
     &__figure{
 position: relative;
 height: 600px;
 width: 600px;
-margin: 5rem auto;
+margin: 12rem auto;
 overflow-wrap:anywhere;
+
     }
     &__caption{
         position: absolute;
@@ -27,6 +30,3 @@ overflow-wrap:anywhere;
             }
 }
 
-.dashboard{
-    
-}

@@ -42,11 +42,9 @@ const Dashboard = () => {
   <Nav nav1={'About'} nav2={'Services'} nav3={'Contact us'}/>
     <header className='header'>
   <div className="header__left">
-    <div className="header__pics">
       <img src={mom} alt="" className='header__img header__img--1' />
-      <img src={lovers} alt=""  className='header__img header__img--2'/>
     
-    </div>
+
   </div>
   <div className="header__right">
  
@@ -58,7 +56,7 @@ const Dashboard = () => {
   </div>
     </header>
     <div className='dashboard'>
-   <Card/>
+        <Card/>
     </div>
     <div className='about'>
       <h2 className="about__heading">About Us</h2>
@@ -67,10 +65,10 @@ const Dashboard = () => {
     </div>
     <div className='footer'>
 <ul className="footer__list">
-  <li className="footer__item">h</li>
-  <li className="footer__item">h</li>
-  <li className="footer__item">h</li>
-  <li className="footer__item">h</li>
+  <li className="footer__item">Facebook</li>
+  <li className="footer__item">twitter</li>
+  <li className="footer__item">Linkdin</li>
+  <li className="footer__item">Snapchat</li>
 </ul>
     </div>
     </>
